@@ -4,13 +4,13 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="mattermost-user-deleter",
+    name="mattermost-channel-deleter",
     version="0.0.1",
     description="Delete Mattermost Channels",
-    url="https://github.com/adfinis-sygroup/mattermost-user-deleter",
+    url="https://github.com/adfinis-sygroup/mattermost-channel-deleter",
     author="Adfinis SyGroup",
     license="AGPL-3.0",
-    packages=["mattermost_user_deleter"],
+    packages=["mattermost_channel_deleter"],
     install_requires=requirements,
     zip_safe=False,
     entry_points={
