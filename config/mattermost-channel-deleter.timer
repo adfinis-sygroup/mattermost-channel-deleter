@@ -1,0 +1,9 @@
+[Unit]
+Description=Run mattermost user deleter script
+
+[Timer]
+Unit=mattermost-user-deleter.service
+OnCalendar=*-*-* 4:00:00
+
+[Install]
+WantedBy=timers.target
