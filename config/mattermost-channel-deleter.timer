@@ -1,8 +1,8 @@
 [Unit]
-Description=Run mattermost user deleter script
+Description=Run mattermost channel deleter script
 
 [Timer]
-Unit=mattermost-user-deleter.service
+Unit=mattermost-channel-deleter.service
 OnCalendar=*-*-* 4:00:00
 
 [Install]
